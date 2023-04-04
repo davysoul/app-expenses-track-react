@@ -1,0 +1,15 @@
+/*
+ Ce code représente une configuration pour le compilateur TypeScript, qui permet de définir certains paramètres pour la compilation du code.
+Plus précisément, les options de compilateur suivantes sont définies :
+"baseUrl": cette option définit le chemin de base pour la résolution des modules. Dans cet exemple, le chemin de base est défini sur "./src", ce qui signifie que tous les chemins relatifs aux modules commenceront par ce chemin.
+"checkJs": cette option permet de spécifier si le compilateur doit vérifier les fichiers JavaScript lors de la compilation TypeScript. Dans cet exemple, la vérification est désactivée (false).
+"jsx": cette option permet de spécifier le type de syntaxe JSX à utiliser dans les fichiers TypeScript. Dans cet exemple, le type de syntaxe JSX est défini sur "react", ce qui signifie que les fichiers TypeScript peuvent inclure du code JSX pour créer des composants React
+*/
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "checkJs": false,
+        "jsx": "react"
+
+    }
+}
